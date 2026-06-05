@@ -176,6 +176,8 @@ body {
 .hero-right {
   flex: 1;
   position: relative;
+  perspective: 1000px;
+  transform-style: preserve-3d;
 }
 
 .floating-card {
@@ -190,6 +192,7 @@ body {
   border-radius: 20px;
 
   box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+  transform: translateZ(80px);
 }
 
 .green-dot {
