@@ -16,12 +16,12 @@ const slider = document.getElementById("testimonialSlider");
 
 function slideRight() {
   const card = slider.querySelector(".testimonial-card");
-
   const style = getComputedStyle(slider);
+  const gap = parseInt(style.gap) || 0;
 
-  const gap = parseInt(style.gap);
-
-  const move = card.offsetWidth * 3 + gap * 3;
+  // Jika lebar layar <= 768px (mobile), geser 1 item. Jika tidak, geser 3 item.
+  const itemsToMove = window.innerWidth <= 768 ? 1 : 3;
+  const move = (card.offsetWidth + gap) * itemsToMove;
 
   slider.scrollBy({
     left: move,
@@ -31,12 +31,12 @@ function slideRight() {
 
 function slideLeft() {
   const card = slider.querySelector(".testimonial-card");
-
   const style = getComputedStyle(slider);
+  const gap = parseInt(style.gap) || 0;
 
-  const gap = parseInt(style.gap);
-
-  const move = card.offsetWidth * 3 + gap * 3;
+  // Jika lebar layar <= 768px (mobile), geser 1 item. Jika tidak, geser 3 item.
+  const itemsToMove = window.innerWidth <= 768 ? 1 : 3;
+  const move = (card.offsetWidth + gap) * itemsToMove;
 
   slider.scrollBy({
     left: -move,
