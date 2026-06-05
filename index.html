@@ -1,0 +1,576 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>i-Eyes</title>
+
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="gallery.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar-fixed">
+      <div class="navbar">
+        <div class="logo">i-Eyes</div>
+
+        <ul class="menu">
+          <li><a href="#news">News</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#gallery">Gallery</a></li>
+          <li><a href="#about">About Us</a></li>
+          <li><a href="#testimony">Testimony</a></li>
+        </ul>
+
+        <div class="nav-right">
+          <button class="contact-btn">Contact Us</button>
+          <button class="primary-nav-btn">Get Started →</button>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="hero-left">
+        <div class="tag">DIGITAL TRANSFORMATION SOLUTION</div>
+
+        <h1>
+          Smart Business <br />
+          Solutions with <br />
+          <span>i-Eyes.</span>
+        </h1>
+
+        <p>
+          Empowering businesses through innovative software, enterprise
+          solutions, digital transformation, mobile applications, and system
+          integration services.
+        </p>
+
+        <div class="hero-buttons">
+          <button class="hero-btn">Explore Products →</button>
+
+          <button class="hero-btn-secondary">Learn More</button>
+        </div>
+
+        <div class="features">
+          <span>✓ Trusted Enterprise Partner</span>
+          <span>✓ 24/7 Support</span>
+        </div>
+      </div>
+
+      <div class="hero-right">
+        <div class="floating-card">
+          <span class="green-dot"></span>
+          100+ Enterprise Clients
+        </div>
+
+        <div class="product-card" id="tiltCard">
+          <div class="status">Active Projects</div>
+
+          <div class="product-item">
+            <div class="left-item">
+              <div class="icon crm">CRM</div>
+
+              <div>
+                <h4>iCRM</h4>
+                <p>Customer Relationship Management</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="left-item">
+              <div class="icon erp">ERP</div>
+
+              <div>
+                <h4>iERP</h4>
+                <p>Enterprise Resource Planning</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="product-item">
+            <div class="left-item">
+              <div class="icon mobile">APP</div>
+
+              <div>
+                <h4>Mobile Development</h4>
+                <p>Android & iOS Solutions</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="project-count">
+            <small>Successful Projects</small>
+            <h2>250+</h2>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- NEWS -->
+    <section id="news" class="section">
+      <div class="container">
+        <h2 class="section-title">Latest News</h2>
+
+        <div class="news-grid">
+          <div
+            class="news-card"
+            onclick="window.location.href = 'news-detail.html?id=crm-platform'"
+          >
+            <img src="assets/digital.webp" />
+            <div class="news-content">
+              <span class="news-date">June 2026</span>
+              <h3>New CRM Platform Launch</h3>
+              <p class="news-subtitle">
+                i-Eyes officially announced the launch of its latest Customer
+                Relationship Management (CRM) Platform, designed to help
+                businesses streamline customer engagement, improve operational
+                efficiency, and drive data-driven decision-making.
+              </p>
+              <a href="news-detail.html?id=crm-platform" class="read-more"
+                >Read more →</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="news-card"
+            onclick="
+              window.location.href =
+                'news-detail.html?id=partnership-tech-company'
+            "
+          >
+            <img src="assets/sales.jpg" alt="News" />
+
+            <div class="news-content">
+              <span class="news-date">May 2026</span>
+              <h3>Partnership with Technology Company</h3>
+              <p class="news-subtitle">
+                Jakarta, Indonesia – June 2026 i-Eyes officially announced the
+                launch of its latest Customer Relationship Management (CRM)
+                Platform, a comprehensive solution designed to help businesses
+                streamline customer engagement, improve operational efficiency,
+                and drive data-driven decision-making.
+              </p>
+              <a
+                href="news-detail.html?id=partnership-tech-company"
+                class="read-more"
+                >Read more →</a
+              >
+            </div>
+          </div>
+
+          <div
+            class="news-card"
+            onclick="
+              window.location.href =
+                'news-detail.html?id=mobile-app-development'
+            "
+          >
+            <img src="assets/mobileapp.png" alt="News" />
+
+            <div class="news-content">
+              <span class="news-date">April 2026</span>
+              <h3>Mobile Application Development</h3>
+              <p class="news-subtitle">
+                Our software division successfully completed a large-scale
+                mobile application project that serves thousands of users daily
+                with high performance and reliability.
+              </p>
+              <a
+                href="news-detail.html?id=mobile-app-development"
+                class="read-more"
+                >Read more →</a
+              >
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PRODUCTS -->
+    <section id="products" class="section">
+      <div class="container">
+        <h2 class="section-title">Our Products</h2>
+
+        <div class="grid">
+          <div class="card">
+            <h3>iCRM</h3>
+            <p>Customer Relationship Management.</p>
+          </div>
+
+          <div class="card">
+            <h3>iERP</h3>
+            <p>Enterprise Resource Planning.</p>
+          </div>
+
+          <div class="card">
+            <h3>Mobile Apps</h3>
+            <p>Android & iOS Application Development.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- GALLERY PROJECT -->
+    <section id="gallery" class="section">
+      <div class="container">
+        <h2 class="section-title">Our Projects</h2>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="assets/digital.webp" alt="Project 1" />
+            <div class="gallery-overlay">
+              <span>Enterprise Solution</span>
+              <h3>Modern ERP Implementation</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/sales.jpg" alt="Project 2" />
+            <div class="gallery-overlay">
+              <span>Mobile Application</span>
+              <h3>Financial Dashboard App</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/mobileapp.png" alt="Project 3" />
+            <div class="gallery-overlay">
+              <span>System Integration</span>
+              <h3>Smart City Integration</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/digital.webp" alt="Project 4" />
+            <div class="gallery-overlay">
+              <span>Web Development</span>
+              <h3>E-Commerce Platform</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/sales.jpg" alt="Project 5" />
+            <div class="gallery-overlay">
+              <span>Software Solution</span>
+              <h3>Retail Management System</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="assets/mobileapp.png" alt="Project 6" />
+            <div class="gallery-overlay">
+              <span>Cloud Computing</span>
+              <h3>Server Infrastructure</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <!-- ABOUT US -->
+    <section id="about" class="section">
+      <div class="container">
+        <h2 class="section-title">About Us</h2>
+
+        <div class="about-grid">
+          <!-- Vision -->
+          <div class="about-card">
+            <h3>Vision</h3>
+            <p>
+              To become a leading creative and technology company that inspires
+              innovation and builds a smarter, connected future.
+            </p>
+          </div>
+
+          <!-- Mission -->
+          <div class="about-card">
+            <h3>Mission</h3>
+
+            <ul>
+              <li>
+                Deliver innovative and high-quality creative, marketing,
+                software, and agency solutions.
+              </li>
+              <li>
+                Help businesses grow through technology and strategic
+                creativity.
+              </li>
+              <li>
+                Build strong and trusted partnerships with clients and
+                communities.
+              </li>
+              <li>
+                Continuously adapt to digital trends and modern business needs.
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Organizational Structure -->
+        <div class="org-grid">
+          <div class="org-card">
+            <img src="assets/yudha.png" alt="Yudha" class="org-photo" />
+
+            <h4>CEO / Founder</h4>
+            <span>Yudha</span>
+
+            <p>Leads the company vision, strategy, and business development.</p>
+          </div>
+
+          <div class="org-card">
+            <img src="assets/kautsar.png" alt="Kautsar" class="org-photo" />
+
+            <h4>Creative Division</h4>
+            <span>Kautsar</span>
+
+            <p>
+              Handles branding, graphic design, content creation, and visual
+              concepts.
+            </p>
+          </div>
+
+          <div class="org-card">
+            <img src="assets/kazama.jpg" alt="Kazama" class="org-photo" />
+
+            <h4>Marketing Division</h4>
+            <span>Kazama</span>
+
+            <p>
+              Manages digital marketing, promotions, advertising, and market
+              strategy.
+            </p>
+          </div>
+
+          <div class="org-card">
+            <img src="assets/mikaaugus.png" alt="MikaAugus" class="org-photo" />
+
+            <h4>Software Division</h4>
+            <span>MikaAugus</span>
+
+            <p>
+              Develops websites, applications, and digital technology solutions.
+            </p>
+          </div>
+
+          <div class="org-card">
+            <img src="assets/mulki.jpeg" alt="Mulki" class="org-photo" />
+
+            <h4>Agency Division</h4>
+            <span>Mulki</span>
+
+            <p>
+              Coordinates client relations, project management, and business
+              partnerships.
+            </p>
+          </div>
+        </div>
+
+        <!-- Business Fields -->
+        <div class="business-section">
+          <h3 class="sub-title">Business Fields</h3>
+
+          <div class="business-grid">
+            <div class="business-card">
+              <h4>Creative Services</h4>
+              <p>Branding, graphic design, and content production.</p>
+            </div>
+
+            <div class="business-card">
+              <h4>Marketing Services</h4>
+              <p>
+                Digital marketing, social media management, and advertising.
+              </p>
+            </div>
+
+            <div class="business-card">
+              <h4>Software Development</h4>
+              <p>Website, mobile application, and system development.</p>
+            </div>
+
+            <div class="business-card">
+              <h4>Agency Services</h4>
+              <p>
+                Business campaigns, media partnerships, and creative consulting.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- TESTIMONY -->
+    <section id="testimony" class="section">
+      <div class="container">
+        <h2 class="section-title">Client Testimonials</h2>
+        <div class="testimonial-layout">
+          <button class="nav-btn" onclick="slideLeft()">❮</button>
+          <div class="testimonial-wrapper">
+            <div class="testimonial-slider" id="testimonialSlider">
+              <!-- Testimonial 1 -->
+              <div class="testimonial-card">
+                <div class="testimonial-header-card">
+                  <img
+                    src="https://ui-avatars.com/api/?name=ABC&background=0099ff&color=fff&size=120"
+                    alt=""
+                  />
+                </div>
+
+                <div class="testimonial-header">
+                  <div>
+                    <h3>PT ABC Indonesia</h3>
+                    <span>Manufacturing Industry</span>
+                  </div>
+                </div>
+
+                <div class="rating">★★★★★</div>
+
+                <p>
+                  i-Eyes successfully helped us modernize our operational
+                  systems. Their team demonstrated strong technical expertise
+                  and delivered the project on schedule.
+                </p>
+              </div>
+
+              <!-- Testimonial 2 -->
+              <div class="testimonial-card">
+                <div class="testimonial-header-card">
+                  <img
+                    src="https://ui-avatars.com/api/?name=XYZ&background=0099ff&color=fff&size=120"
+                    alt=""
+                  />
+                </div>
+                <div class="testimonial-header">
+                  <div>
+                    <h3>PT XYZ Group</h3>
+                    <span>Financial Services</span>
+                  </div>
+                </div>
+
+                <div class="rating">★★★★★</div>
+
+                <p>
+                  From planning to implementation, the collaboration was
+                  seamless. The solutions provided have significantly improved
+                  our business efficiency and customer experience.
+                </p>
+              </div>
+
+              <!-- Testimonial 3 -->
+              <div class="testimonial-card">
+                <div class="testimonial-header-card">
+                  <img
+                    src="https://ui-avatars.com/api/?name=DN&background=0099ff&color=fff&size=120"
+                    alt=""
+                  />
+                </div>
+                <div class="testimonial-header">
+                  <div>
+                    <h3>PT Digital Nusantara</h3>
+                    <span>Technology Company</span>
+                  </div>
+                </div>
+
+                <div class="rating">★★★★★</div>
+
+                <p>
+                  We highly appreciate the professionalism and commitment of the
+                  i-Eyes team. Their digital solutions have become an important
+                  part of our business growth strategy.
+                </p>
+              </div>
+
+              <!-- Testimonial 4 -->
+              <div class="testimonial-card">
+                <div class="testimonial-header-card">
+                  <img
+                    src="https://ui-avatars.com/api/?name=MB&background=0099ff&color=fff&size=120"
+                    alt=""
+                  />
+                </div>
+                <div class="testimonial-header">
+                  <div>
+                    <h3>PT Maju Bersama</h3>
+                    <span>Retail & Commerce</span>
+                  </div>
+                </div>
+
+                <div class="rating">★★★★★</div>
+
+                <p>
+                  The project was completed efficiently with excellent
+                  communication throughout the process. We are extremely
+                  satisfied with the results delivered by i-Eyes.
+                </p>
+              </div>
+
+              <!-- Testimonial 5 -->
+              <div class="testimonial-card">
+                <div class="testimonial-header-card">
+                  <img
+                    src="https://ui-avatars.com/api/?name=TI&background=0099ff&color=fff&size=120"
+                    alt=""
+                  />
+                </div>
+                <div class="testimonial-header">
+                  <div>
+                    <h3>PT Teknologi Indonesia</h3>
+                    <span>IT Solutions Provider</span>
+                  </div>
+                </div>
+
+                <div class="rating">★★★★★</div>
+
+                <p>
+                  i-Eyes demonstrated deep technical knowledge and strong
+                  project management capabilities. They have become one of our
+                  most trusted technology partners.
+                </p>
+              </div>
+
+              <!-- Testimonial 6 -->
+              <div class="testimonial-card">
+                <div class="testimonial-header-card">
+                  <img
+                    src="https://ui-avatars.com/api/?name=IG&background=0099ff&color=fff&size=120"
+                    alt=""
+                  />
+                </div>
+                <div class="testimonial-header">
+                  <div>
+                    <h3>PT Inovasi Global</h3>
+                    <span>Business Consulting</span>
+                  </div>
+                </div>
+
+                <div class="rating">★★★★★</div>
+
+                <p>
+                  Their innovative approach and dedication to quality helped us
+                  achieve our digital transformation goals faster than expected.
+                  Highly recommended for enterprise projects.
+                </p>
+              </div>
+            </div>
+          </div>
+          <button class="nav-btn" onclick="slideRight()">❯</button>
+        </div>
+      </div>
+    </section>
+
+    <footer>
+      <p>© 2026 i-Eyes Company. All Rights Reserved.</p>
+
+      <p class="icon-credit">
+        News icons created by
+        <a href="https://www.flaticon.com/free-icons/newspaper" target="_blank">
+          Freepik - Flaticon
+        </a>
+      </p>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>
