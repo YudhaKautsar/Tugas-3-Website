@@ -16,6 +16,28 @@ const brochureData = {
     description: "Layanan pembuatan aplikasi Android & iOS profesional.",
     image: "assets/mobileapp.png",
   },
+  "project-1": {
+    title: "Modern Building Project",
+    description:
+      "Architecture and implementation details of our modern building solution.",
+    image: "assets/tampakdepan.png",
+  },
+  "project-2": {
+    title: "Rear View Structure",
+    description:
+      "Technical construction details and rear view structural analysis.",
+    image: "assets/tampakbelakang.png",
+  },
+  "kegiatan-1": {
+    title: "Team Gathering",
+    description: "Moments from our corporate team building event.",
+    image: "assets/kazama.png",
+  },
+  "kegiatan-2": {
+    title: "Field Operation",
+    description: "Real-time documentation of our technical field activities.",
+    image: "assets/fotokegiatan.jpeg",
+  },
 };
 
 // Ambil ID dari URL (?id=...)
