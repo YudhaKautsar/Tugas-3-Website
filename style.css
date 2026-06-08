@@ -73,6 +73,13 @@ body {
   background: none;
   cursor: pointer;
   font-weight: 600;
+  text-decoration: none;
+  color: #444;
+  transition: color 0.3s ease;
+}
+
+.contact-btn:hover {
+  color: #0099ff;
 }
 
 .primary-nav-btn {
