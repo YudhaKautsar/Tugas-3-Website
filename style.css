@@ -160,6 +160,8 @@ body {
   border-radius: 14px;
 
   cursor: pointer;
+  text-decoration: none;
+  display: inline-block;
 }
 
 .hero-btn-secondary {
