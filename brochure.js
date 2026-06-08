@@ -31,7 +31,7 @@ const brochureData = {
   "kegiatan-1": {
     title: "Team Gathering",
     description: "Moments from our corporate team building event.",
-    image: "assets/kazama.png",
+    image: "assets/diskusi.jpg",
   },
   "kegiatan-2": {
     title: "Field Operation",
